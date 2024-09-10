@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F523B1962C9092010099962C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523B1952C9092010099962C /* AppDelegate.swift */; };
+		F523B1982C9092010099962C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523B1972C9092010099962C /* SceneDelegate.swift */; };
+		F523B19A2C9092010099962C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523B1992C9092010099962C /* ViewController.swift */; };
+		F523B19D2C9092010099962C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F523B19C2C9092010099962C /* Base */; };
+		F523B19F2C9092020099962C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F523B19E2C9092020099962C /* Assets.xcassets */; };
+		F523B1A22C9092020099962C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F523B1A12C9092020099962C /* Base */; };
+		F523B1AD2C9092020099962C /* VowelTesterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523B1AC2C9092020099962C /* VowelTesterAppTests.swift */; };
+		F523B1B72C9092020099962C /* VowelTesterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523B1B62C9092020099962C /* VowelTesterAppUITests.swift */; };
+		F523B1B92C9092020099962C /* VowelTesterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523B1B82C9092020099962C /* VowelTesterAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F523B1A92C9092020099962C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F523B18A2C9092010099962C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F523B1912C9092010099962C;
+			remoteInfo = VowelTesterApp;
+		};
+		F523B1B32C9092020099962C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F523B18A2C9092010099962C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F523B1912C9092010099962C;
+			remoteInfo = VowelTesterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F523B1922C9092010099962C /* VowelTesterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VowelTesterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523B1952C9092010099962C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F523B1972C9092010099962C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F523B1992C9092010099962C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F523B19C2C9092010099962C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F523B19E2C9092020099962C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F523B1A12C9092020099962C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F523B1A32C9092020099962C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F523B1A82C9092020099962C /* VowelTesterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VowelTesterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523B1AC2C9092020099962C /* VowelTesterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelTesterAppTests.swift; sourceTree = "<group>"; };
+		F523B1B22C9092020099962C /* VowelTesterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VowelTesterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523B1B62C9092020099962C /* VowelTesterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelTesterAppUITests.swift; sourceTree = "<group>"; };
+		F523B1B82C9092020099962C /* VowelTesterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelTesterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F523B18F2C9092010099962C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523B1A52C9092020099962C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523B1AF2C9092020099962C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F523B1892C9092010099962C = {
+			isa = PBXGroup;
+			children = (
+				F523B1942C9092010099962C /* VowelTesterApp */,
+				F523B1AB2C9092020099962C /* VowelTesterAppTests */,
+				F523B1B52C9092020099962C /* VowelTesterAppUITests */,
+				F523B1932C9092010099962C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F523B1932C9092010099962C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F523B1922C9092010099962C /* VowelTesterApp.app */,
+				F523B1A82C9092020099962C /* VowelTesterAppTests.xctest */,
+				F523B1B22C9092020099962C /* VowelTesterAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F523B1942C9092010099962C /* VowelTesterApp */ = {
+			isa = PBXGroup;
+			children = (
+				F523B1952C9092010099962C /* AppDelegate.swift */,
+				F523B1972C9092010099962C /* SceneDelegate.swift */,
+				F523B1992C9092010099962C /* ViewController.swift */,
+				F523B19B2C9092010099962C /* Main.storyboard */,
+				F523B19E2C9092020099962C /* Assets.xcassets */,
+				F523B1A02C9092020099962C /* LaunchScreen.storyboard */,
+				F523B1A32C9092020099962C /* Info.plist */,
+			);
+			path = VowelTesterApp;
+			sourceTree = "<group>";
+		};
+		F523B1AB2C9092020099962C /* VowelTesterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F523B1AC2C9092020099962C /* VowelTesterAppTests.swift */,
+			);
+			path = VowelTesterAppTests;
+			sourceTree = "<group>";
+		};
+		F523B1B52C9092020099962C /* VowelTesterAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F523B1B62C9092020099962C /* VowelTesterAppUITests.swift */,
+				F523B1B82C9092020099962C /* VowelTesterAppUITestsLaunchTests.swift */,
+			);
+			path = VowelTesterAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F523B1912C9092010099962C /* VowelTesterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523B1BC2C9092020099962C /* Build configuration list for PBXNativeTarget "VowelTesterApp" */;
+			buildPhases = (
+				F523B18E2C9092010099962C /* Sources */,
+				F523B18F2C9092010099962C /* Frameworks */,
+				F523B1902C9092010099962C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VowelTesterApp;
+			productName = VowelTesterApp;
+			productReference = F523B1922C9092010099962C /* VowelTesterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F523B1A72C9092020099962C /* VowelTesterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523B1BF2C9092020099962C /* Build configuration list for PBXNativeTarget "VowelTesterAppTests" */;
+			buildPhases = (
+				F523B1A42C9092020099962C /* Sources */,
+				F523B1A52C9092020099962C /* Frameworks */,
+				F523B1A62C9092020099962C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F523B1AA2C9092020099962C /* PBXTargetDependency */,
+			);
+			name = VowelTesterAppTests;
+			productName = VowelTesterAppTests;
+			productReference = F523B1A82C9092020099962C /* VowelTesterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F523B1B12C9092020099962C /* VowelTesterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F523B1C22C9092020099962C /* Build configuration list for PBXNativeTarget "VowelTesterAppUITests" */;
+			buildPhases = (
+				F523B1AE2C9092020099962C /* Sources */,
+				F523B1AF2C9092020099962C /* Frameworks */,
+				F523B1B02C9092020099962C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F523B1B42C9092020099962C /* PBXTargetDependency */,
+			);
+			name = VowelTesterAppUITests;
+			productName = VowelTesterAppUITests;
+			productReference = F523B1B22C9092020099962C /* VowelTesterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F523B18A2C9092010099962C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F523B1912C9092010099962C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F523B1A72C9092020099962C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F523B1912C9092010099962C;
+					};
+					F523B1B12C9092020099962C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F523B1912C9092010099962C;
+					};
+				};
+			};
+			buildConfigurationList = F523B18D2C9092010099962C /* Build configuration list for PBXProject "VowelTesterApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F523B1892C9092010099962C;
+			productRefGroup = F523B1932C9092010099962C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F523B1912C9092010099962C /* VowelTesterApp */,
+				F523B1A72C9092020099962C /* VowelTesterAppTests */,
+				F523B1B12C9092020099962C /* VowelTesterAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F523B1902C9092010099962C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523B19F2C9092020099962C /* Assets.xcassets in Resources */,
+				F523B1A22C9092020099962C /* Base in Resources */,
+				F523B19D2C9092010099962C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523B1A62C9092020099962C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523B1B02C9092020099962C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F523B18E2C9092010099962C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523B19A2C9092010099962C /* ViewController.swift in Sources */,
+				F523B1962C9092010099962C /* AppDelegate.swift in Sources */,
+				F523B1982C9092010099962C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523B1A42C9092020099962C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523B1AD2C9092020099962C /* VowelTesterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523B1AE2C9092020099962C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F523B1B72C9092020099962C /* VowelTesterAppUITests.swift in Sources */,
+				F523B1B92C9092020099962C /* VowelTesterAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F523B1AA2C9092020099962C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F523B1912C9092010099962C /* VowelTesterApp */;
+			targetProxy = F523B1A92C9092020099962C /* PBXContainerItemProxy */;
+		};
+		F523B1B42C9092020099962C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F523B1912C9092010099962C /* VowelTesterApp */;
+			targetProxy = F523B1B32C9092020099962C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F523B19B2C9092010099962C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F523B19C2C9092010099962C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F523B1A02C9092020099962C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F523B1A12C9092020099962C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F523B1BA2C9092020099962C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F523B1BB2C9092020099962C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F523B1BD2C9092020099962C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VowelTesterApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VowelTesterApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.VowelTesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F523B1BE2C9092020099962C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VowelTesterApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VowelTesterApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.VowelTesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F523B1C02C9092020099962C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.VowelTesterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VowelTesterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VowelTesterApp";
+			};
+			name = Debug;
+		};
+		F523B1C12C9092020099962C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.VowelTesterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VowelTesterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VowelTesterApp";
+			};
+			name = Release;
+		};
+		F523B1C32C9092020099962C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.VowelTesterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VowelTesterApp;
+			};
+			name = Debug;
+		};
+		F523B1C42C9092020099962C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.VowelTesterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VowelTesterApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F523B18D2C9092010099962C /* Build configuration list for PBXProject "VowelTesterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523B1BA2C9092020099962C /* Debug */,
+				F523B1BB2C9092020099962C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F523B1BC2C9092020099962C /* Build configuration list for PBXNativeTarget "VowelTesterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523B1BD2C9092020099962C /* Debug */,
+				F523B1BE2C9092020099962C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F523B1BF2C9092020099962C /* Build configuration list for PBXNativeTarget "VowelTesterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523B1C02C9092020099962C /* Debug */,
+				F523B1C12C9092020099962C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F523B1C22C9092020099962C /* Build configuration list for PBXNativeTarget "VowelTesterAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F523B1C32C9092020099962C /* Debug */,
+				F523B1C42C9092020099962C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F523B18A2C9092010099962C /* Project object */;
+}
