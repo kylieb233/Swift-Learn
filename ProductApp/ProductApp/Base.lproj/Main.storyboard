@@ -38,8 +38,8 @@
                                     <action selector="submitBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fxs-Um-00z"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69M-Mf-PnG">
-                                <rect key="frame" x="86" y="416" width="221" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qg-bA-Yy0">
+                                <rect key="frame" x="88" y="402" width="218" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -52,7 +52,7 @@
                     <connections>
                         <outlet property="inputIO1" destination="vrY-ai-SM5" id="xtO-ll-CjB"/>
                         <outlet property="inputIO2" destination="n5f-Dt-AJx" id="tcl-M5-wge"/>
-                        <outlet property="outIO" destination="69M-Mf-PnG" id="T0W-ce-LyL"/>
+                        <outlet property="outputIO" destination="3Qg-bA-Yy0" id="9u4-bH-Ohx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
