@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var outputOL: UILabel!
     
+    @IBOutlet weak var displayOL: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -25,6 +27,7 @@ class ViewController: UIViewController {
             (amount! < 50){
             var newAmount = (amount! * 10/100)
             outputOL.text = ("You recieved 10% discount on the amount \(amount!) .The discount value is \(newAmount)")
+            displayOL.image = 
         }else if (amount! > 51) &&
                 (amount! < 100){
             var newAmount = (amount! * 20/100)
