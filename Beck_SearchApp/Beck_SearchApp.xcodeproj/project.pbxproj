@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78A97F432CDC7B8700F6DA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A97F422CDC7B8700F6DA51 /* AppDelegate.swift */; };
+		78A97F452CDC7B8700F6DA51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A97F442CDC7B8700F6DA51 /* SceneDelegate.swift */; };
+		78A97F472CDC7B8700F6DA51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A97F462CDC7B8700F6DA51 /* ViewController.swift */; };
+		78A97F4A2CDC7B8700F6DA51 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 78A97F492CDC7B8700F6DA51 /* Base */; };
+		78A97F4C2CDC7B8B00F6DA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A97F4B2CDC7B8B00F6DA51 /* Assets.xcassets */; };
+		78A97F4F2CDC7B8B00F6DA51 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 78A97F4E2CDC7B8B00F6DA51 /* Base */; };
+		78A97F5A2CDC7B8B00F6DA51 /* Beck_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A97F592CDC7B8B00F6DA51 /* Beck_SearchAppTests.swift */; };
+		78A97F642CDC7B8C00F6DA51 /* Beck_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A97F632CDC7B8C00F6DA51 /* Beck_SearchAppUITests.swift */; };
+		78A97F662CDC7B8C00F6DA51 /* Beck_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A97F652CDC7B8C00F6DA51 /* Beck_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78A97F562CDC7B8B00F6DA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A97F372CDC7B8700F6DA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A97F3E2CDC7B8700F6DA51;
+			remoteInfo = Beck_SearchApp;
+		};
+		78A97F602CDC7B8C00F6DA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A97F372CDC7B8700F6DA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A97F3E2CDC7B8700F6DA51;
+			remoteInfo = Beck_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78A97F3F2CDC7B8700F6DA51 /* Beck_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beck_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A97F422CDC7B8700F6DA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78A97F442CDC7B8700F6DA51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78A97F462CDC7B8700F6DA51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78A97F492CDC7B8700F6DA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78A97F4B2CDC7B8B00F6DA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A97F4E2CDC7B8B00F6DA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78A97F502CDC7B8B00F6DA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A97F552CDC7B8B00F6DA51 /* Beck_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Beck_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A97F592CDC7B8B00F6DA51 /* Beck_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beck_SearchAppTests.swift; sourceTree = "<group>"; };
+		78A97F5F2CDC7B8C00F6DA51 /* Beck_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Beck_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A97F632CDC7B8C00F6DA51 /* Beck_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beck_SearchAppUITests.swift; sourceTree = "<group>"; };
+		78A97F652CDC7B8C00F6DA51 /* Beck_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beck_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A97F3C2CDC7B8700F6DA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A97F522CDC7B8B00F6DA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A97F5C2CDC7B8C00F6DA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78A97F362CDC7B8700F6DA51 = {
+			isa = PBXGroup;
+			children = (
+				78A97F412CDC7B8700F6DA51 /* Beck_SearchApp */,
+				78A97F582CDC7B8B00F6DA51 /* Beck_SearchAppTests */,
+				78A97F622CDC7B8C00F6DA51 /* Beck_SearchAppUITests */,
+				78A97F402CDC7B8700F6DA51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78A97F402CDC7B8700F6DA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A97F3F2CDC7B8700F6DA51 /* Beck_SearchApp.app */,
+				78A97F552CDC7B8B00F6DA51 /* Beck_SearchAppTests.xctest */,
+				78A97F5F2CDC7B8C00F6DA51 /* Beck_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A97F412CDC7B8700F6DA51 /* Beck_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				78A97F422CDC7B8700F6DA51 /* AppDelegate.swift */,
+				78A97F442CDC7B8700F6DA51 /* SceneDelegate.swift */,
+				78A97F462CDC7B8700F6DA51 /* ViewController.swift */,
+				78A97F482CDC7B8700F6DA51 /* Main.storyboard */,
+				78A97F4B2CDC7B8B00F6DA51 /* Assets.xcassets */,
+				78A97F4D2CDC7B8B00F6DA51 /* LaunchScreen.storyboard */,
+				78A97F502CDC7B8B00F6DA51 /* Info.plist */,
+			);
+			path = Beck_SearchApp;
+			sourceTree = "<group>";
+		};
+		78A97F582CDC7B8B00F6DA51 /* Beck_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				78A97F592CDC7B8B00F6DA51 /* Beck_SearchAppTests.swift */,
+			);
+			path = Beck_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		78A97F622CDC7B8C00F6DA51 /* Beck_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78A97F632CDC7B8C00F6DA51 /* Beck_SearchAppUITests.swift */,
+				78A97F652CDC7B8C00F6DA51 /* Beck_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Beck_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A97F3E2CDC7B8700F6DA51 /* Beck_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A97F692CDC7B8C00F6DA51 /* Build configuration list for PBXNativeTarget "Beck_SearchApp" */;
+			buildPhases = (
+				78A97F3B2CDC7B8700F6DA51 /* Sources */,
+				78A97F3C2CDC7B8700F6DA51 /* Frameworks */,
+				78A97F3D2CDC7B8700F6DA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beck_SearchApp;
+			productName = Beck_SearchApp;
+			productReference = 78A97F3F2CDC7B8700F6DA51 /* Beck_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78A97F542CDC7B8B00F6DA51 /* Beck_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A97F6C2CDC7B8C00F6DA51 /* Build configuration list for PBXNativeTarget "Beck_SearchAppTests" */;
+			buildPhases = (
+				78A97F512CDC7B8B00F6DA51 /* Sources */,
+				78A97F522CDC7B8B00F6DA51 /* Frameworks */,
+				78A97F532CDC7B8B00F6DA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A97F572CDC7B8B00F6DA51 /* PBXTargetDependency */,
+			);
+			name = Beck_SearchAppTests;
+			productName = Beck_SearchAppTests;
+			productReference = 78A97F552CDC7B8B00F6DA51 /* Beck_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78A97F5E2CDC7B8C00F6DA51 /* Beck_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A97F6F2CDC7B8C00F6DA51 /* Build configuration list for PBXNativeTarget "Beck_SearchAppUITests" */;
+			buildPhases = (
+				78A97F5B2CDC7B8C00F6DA51 /* Sources */,
+				78A97F5C2CDC7B8C00F6DA51 /* Frameworks */,
+				78A97F5D2CDC7B8C00F6DA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A97F612CDC7B8C00F6DA51 /* PBXTargetDependency */,
+			);
+			name = Beck_SearchAppUITests;
+			productName = Beck_SearchAppUITests;
+			productReference = 78A97F5F2CDC7B8C00F6DA51 /* Beck_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A97F372CDC7B8700F6DA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					78A97F3E2CDC7B8700F6DA51 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					78A97F542CDC7B8B00F6DA51 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 78A97F3E2CDC7B8700F6DA51;
+					};
+					78A97F5E2CDC7B8C00F6DA51 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 78A97F3E2CDC7B8700F6DA51;
+					};
+				};
+			};
+			buildConfigurationList = 78A97F3A2CDC7B8700F6DA51 /* Build configuration list for PBXProject "Beck_SearchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78A97F362CDC7B8700F6DA51;
+			productRefGroup = 78A97F402CDC7B8700F6DA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A97F3E2CDC7B8700F6DA51 /* Beck_SearchApp */,
+				78A97F542CDC7B8B00F6DA51 /* Beck_SearchAppTests */,
+				78A97F5E2CDC7B8C00F6DA51 /* Beck_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A97F3D2CDC7B8700F6DA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A97F4C2CDC7B8B00F6DA51 /* Assets.xcassets in Resources */,
+				78A97F4F2CDC7B8B00F6DA51 /* Base in Resources */,
+				78A97F4A2CDC7B8700F6DA51 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A97F532CDC7B8B00F6DA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A97F5D2CDC7B8C00F6DA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A97F3B2CDC7B8700F6DA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A97F472CDC7B8700F6DA51 /* ViewController.swift in Sources */,
+				78A97F432CDC7B8700F6DA51 /* AppDelegate.swift in Sources */,
+				78A97F452CDC7B8700F6DA51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A97F512CDC7B8B00F6DA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A97F5A2CDC7B8B00F6DA51 /* Beck_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A97F5B2CDC7B8C00F6DA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A97F642CDC7B8C00F6DA51 /* Beck_SearchAppUITests.swift in Sources */,
+				78A97F662CDC7B8C00F6DA51 /* Beck_SearchAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78A97F572CDC7B8B00F6DA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A97F3E2CDC7B8700F6DA51 /* Beck_SearchApp */;
+			targetProxy = 78A97F562CDC7B8B00F6DA51 /* PBXContainerItemProxy */;
+		};
+		78A97F612CDC7B8C00F6DA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A97F3E2CDC7B8700F6DA51 /* Beck_SearchApp */;
+			targetProxy = 78A97F602CDC7B8C00F6DA51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78A97F482CDC7B8700F6DA51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A97F492CDC7B8700F6DA51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78A97F4D2CDC7B8B00F6DA51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A97F4E2CDC7B8B00F6DA51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78A97F672CDC7B8C00F6DA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78A97F682CDC7B8C00F6DA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A97F6A2CDC7B8C00F6DA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Beck_SearchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.24.cs44643.Beck-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78A97F6B2CDC7B8C00F6DA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Beck_SearchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.24.cs44643.Beck-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78A97F6D2CDC7B8C00F6DA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.24.cs44643.Beck-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beck_SearchApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beck_SearchApp";
+			};
+			name = Debug;
+		};
+		78A97F6E2CDC7B8C00F6DA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.24.cs44643.Beck-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beck_SearchApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beck_SearchApp";
+			};
+			name = Release;
+		};
+		78A97F702CDC7B8C00F6DA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.24.cs44643.Beck-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beck_SearchApp;
+			};
+			name = Debug;
+		};
+		78A97F712CDC7B8C00F6DA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.24.cs44643.Beck-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beck_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A97F3A2CDC7B8700F6DA51 /* Build configuration list for PBXProject "Beck_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A97F672CDC7B8C00F6DA51 /* Debug */,
+				78A97F682CDC7B8C00F6DA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A97F692CDC7B8C00F6DA51 /* Build configuration list for PBXNativeTarget "Beck_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A97F6A2CDC7B8C00F6DA51 /* Debug */,
+				78A97F6B2CDC7B8C00F6DA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A97F6C2CDC7B8C00F6DA51 /* Build configuration list for PBXNativeTarget "Beck_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A97F6D2CDC7B8C00F6DA51 /* Debug */,
+				78A97F6E2CDC7B8C00F6DA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A97F6F2CDC7B8C00F6DA51 /* Build configuration list for PBXNativeTarget "Beck_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A97F702CDC7B8C00F6DA51 /* Debug */,
+				78A97F712CDC7B8C00F6DA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A97F372CDC7B8700F6DA51 /* Project object */;
+}
