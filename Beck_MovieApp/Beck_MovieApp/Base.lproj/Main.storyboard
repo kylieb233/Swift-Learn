@@ -28,6 +28,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="gOy-jG-2Vn" kind="show" identifier="listSegue" id="VFs-uS-YQQ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -42,6 +45,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="goI-pq-QAn"/>
+                    <connections>
+                        <outlet property="moviesTableView" destination="Fa5-cu-PxJ" id="Cbq-ik-fYM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,7 +62,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5pG-vG-YIQ">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="listCell" id="L8w-hS-C4v">
@@ -66,6 +72,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="gJA-2c-pic" kind="show" identifier="movieInfoSegue" id="oiv-J8-Tjc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -79,10 +88,73 @@
                             <constraint firstItem="5pG-vG-YIQ" firstAttribute="leading" secondItem="KaS-Yz-0i6" secondAttribute="leading" id="chs-oT-cvJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="iQc-7t-wTm"/>
+                    <connections>
+                        <outlet property="movieListTableView" destination="5pG-vG-YIQ" id="QAU-qg-0Xx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DO9-QK-KOR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1795" y="4"/>
+        </scene>
+        <!--Movie Info View Controller-->
+        <scene sceneID="ad9-cl-mZY">
+            <objects>
+                <viewController id="gJA-2c-pic" customClass="MovieInfoViewController" customModule="Beck_MovieApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9fD-ZP-p2a" customClass="MovieInfoViewController" customModule="Beck_MovieApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b52-mr-35t">
+                                <rect key="frame" x="20" y="521" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="showInfoAction:" destination="9fD-ZP-p2a" eventType="touchUpInside" id="pkC-zF-6Z1"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Hd-ur-pyH">
+                                <rect key="frame" x="20" y="351" width="353" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="3sw-Lh-2dG"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="50p-h7-qeR">
+                                <rect key="frame" x="20" y="135" width="353" height="208"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rdK-hw-1vf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="50p-h7-qeR" firstAttribute="top" secondItem="rdK-hw-1vf" secondAttribute="top" constant="20" id="3xm-cS-BGs"/>
+                            <constraint firstItem="9Hd-ur-pyH" firstAttribute="top" secondItem="50p-h7-qeR" secondAttribute="bottom" constant="20" id="ASN-z4-5oP"/>
+                            <constraint firstItem="50p-h7-qeR" firstAttribute="top" secondItem="rdK-hw-1vf" secondAttribute="top" constant="20" id="BFV-lz-ZRO"/>
+                            <constraint firstItem="50p-h7-qeR" firstAttribute="leading" secondItem="rdK-hw-1vf" secondAttribute="leading" constant="20" id="FLj-n8-X7t"/>
+                            <constraint firstItem="b52-mr-35t" firstAttribute="leading" secondItem="rdK-hw-1vf" secondAttribute="leading" constant="20" id="FqW-3E-g4d"/>
+                            <constraint firstItem="b52-mr-35t" firstAttribute="top" secondItem="9Hd-ur-pyH" secondAttribute="bottom" constant="20" id="Iru-JY-BY6"/>
+                            <constraint firstItem="rdK-hw-1vf" firstAttribute="trailing" secondItem="b52-mr-35t" secondAttribute="trailing" constant="20" id="Odt-dw-fKz"/>
+                            <constraint firstItem="b52-mr-35t" firstAttribute="top" secondItem="9Hd-ur-pyH" secondAttribute="bottom" constant="20" id="Y6y-66-uEX"/>
+                            <constraint firstItem="9Hd-ur-pyH" firstAttribute="leading" secondItem="rdK-hw-1vf" secondAttribute="leading" constant="20" id="d71-MB-DBl"/>
+                            <constraint firstItem="rdK-hw-1vf" firstAttribute="trailing" secondItem="50p-h7-qeR" secondAttribute="trailing" constant="20" id="lZZ-uw-f0A"/>
+                            <constraint firstItem="9Hd-ur-pyH" firstAttribute="top" secondItem="50p-h7-qeR" secondAttribute="bottom" constant="20" id="mCU-jk-gQ4"/>
+                            <constraint firstItem="rdK-hw-1vf" firstAttribute="trailing" secondItem="9Hd-ur-pyH" secondAttribute="trailing" constant="20" id="ngp-WB-GYo"/>
+                            <constraint firstItem="9Hd-ur-pyH" firstAttribute="centerY" secondItem="9fD-ZP-p2a" secondAttribute="centerY" id="r9E-8U-BDU"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="imageViewOL" destination="50p-h7-qeR" id="ku0-lI-Clv"/>
+                            <outlet property="textViewOL" destination="9Hd-ur-pyH" id="PCB-tB-Y8z"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="Oyj-DE-n7n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eBS-XG-Cna" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2651" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YpP-V4-n5N">
@@ -104,6 +176,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

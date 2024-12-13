@@ -7,14 +7,38 @@
 
 import UIKit
 
-class MovieListViewController: UIViewController {
+class MovieListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return selectedGenre?.list_Array.count ?? 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath)
+            cell.textLabel?.text = selectedGenre?.list_Array[indexPath.row].movieName
+                return cell
+    }
+    
 
+    @IBOutlet weak var movieListTableView: UITableView!
+    
+    var selectedGenre: Movies?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = selectedGenre?.genre
+        movieListTableView.delegate = self
+        movieListTableView.dataSource = self
 
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "MovieInfoSegue",
+           let destinationVC = segue.destination as? MovieInfoViewController,
+           var selectedMovie = sender as? MovieList {
+            destinationVC.movie = selectedMovie
+        }
+    }
 
     /*
     // MARK: - Navigation
